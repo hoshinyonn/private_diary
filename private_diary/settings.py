@@ -20,7 +20,7 @@ MEDIA_ROOT = '/usr/share/nginx/html/media'
 #EMAIL_BACKEND = 'django_ses.SESBackend'
 # メールをログとして吐き出す設定
 EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
-EMAIL_FILE_PATH = '/home/app_admin3/log'
+EMAIL_FILE_PATH = '/home/app_admin/log'
 
 # ロギング
 LOGGING = {
